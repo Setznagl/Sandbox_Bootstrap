@@ -13,6 +13,22 @@
 
       <!-- Basic Grid Layout -->
 
+      <div class="row">
+        <div class="col bg-light border">1 of 2</div>
+        <div class="col bg-light border">2 of 2</div>
+      </div>
+
+      <div class="row">
+        <div class="col bg-dark text-light border">1 of 3</div>
+        <div class="col bg-dark text-light border">2 of 3</div>
+        <div class="col bg-dark text-light border">3 of 3</div>
+      </div>
+
+      <div class="row">
+        <div class="col-3 bg-warning text-dark border">1 of 2</div>
+        <div class="col-9 bg-warning text-dark border">2 of 2</div>
+      </div>
+
       <br /><br />
 
       <!-- Column Sizes -->
@@ -21,15 +37,46 @@
 
       <!-- Responsive Grid -->
 
+      <div class="row">
+        <div class="col-md-3 bg-warning text-dark border">1 of 2</div>
+        <div class="col-md-9 bg-warning text-dark border">2 of 2</div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 bg-warning text-dark border">1 of 2</div>
+        <div class="col-lg-6 bg-warning text-dark border">2 of 2</div>
+      </div>
+
       <br /><br />
 
       <!-- Row Cols -->
+
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="col bg-secondary text-light border">1 - 2</div>
+        <div class="col bg-secondary text-light border">2 - 2</div>
+        <div class="col bg-secondary text-light border">1 - 2</div>
+        <div class="col bg-secondary text-light border">2 - 2</div>
+        <div class="col bg-secondary text-light border">1 - 2</div>
+        <div class="col bg-secondary text-light border">2 - 2</div>
+      </div>
 
       <br /><br />
 
       <br /><br />
 
       <!-- Nesting -->
+
+      <div class="row">
+        <div class="col bg-secondary text-light border">1 - 3</div>
+        <div class="col bg-secondary text-light border">2 - 3</div>
+        <div class="col bg-secondary text-light border">
+          <div class="row">
+            <div class="col bg-primary text-light border">3 - 3 (1)</div>
+            <div class="col bg-primary text-light border">3 - 3 (2)</div>
+          </div>
+        </div>
+      </div>
+
+   
 
       <br /><br />
 
@@ -39,9 +86,20 @@
 
       <!-- Offsetting Columns -->
 
+      <div class="row">
+        <div class="col-2 offset-10 border border-primary">Hello World</div>
+      </div>
+
       <br /><br />
 
       <!-- Ordering -->
+
+      <div class="row">
+        <div class="col bg-secondary text-light border order-4">Item 1</div>
+        <div class="col bg-secondary text-light border order-3">Item 2</div>
+        <div class="col bg-secondary text-light border order-2">Item 3</div>
+        <div class="col bg-secondary text-light border order-1">Item 4</div>
+      </div>
 
       <!-- Don't go past here -->
     </div>
